@@ -1,0 +1,96 @@
+.ventas-container {
+  padding: 2rem;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Filtros */
+.filtros-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+}
+
+.filtro-item {
+  min-width: 200px;
+  flex: 1;
+}
+
+.btn-limpiar-filtros {
+  background-color: #e74c3c;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.btn-limpiar-filtros:hover {
+  background-color: #c0392b;
+}
+
+.ventas-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.ventas-tabla th,
+.ventas-tabla td {
+  border: 1px solid #ddd;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ventas-tabla th {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
+
+.ventas-tabla tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.ventas-tabla ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Contenedor de tarjetas resumen */
+.cards-resumen {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Reutilizable para todas las tarjetas resumen */
+.resumen-card {
+  max-width: 400px;
+  flex: 1 1 300px;
+  background: #f1f1f1;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.resumen-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.resumen-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}

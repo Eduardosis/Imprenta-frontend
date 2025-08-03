@@ -1,0 +1,43 @@
+.tabla-campos {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.tabla-campos td,
+.tabla-campos th {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.tabla-campos tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabla-campos tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tabla-campos th {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-eliminar {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-eliminar:hover {
+  background-color: #c0392b;
+}
