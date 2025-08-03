@@ -1,4 +1,3 @@
-// App.jsx
 import { Routes, Route } from 'react-router-dom';
 import RegistroVenta from './pages/RegistroVenta';
 import ListaVentas from './pages/Ventas';

@@ -1,4 +1,3 @@
-// src/modal/EditarVentaModal.jsx
 import {
   Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField, MenuItem, Grid, IconButton, Checkbox, FormControlLabel 
 } from '@mui/material';
